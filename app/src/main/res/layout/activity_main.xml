@@ -24,25 +24,25 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView" />
 
-        <TextView
+        <com.google.android.material.textview.MaterialTextView
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
             android:text="Welcome Bolt"
-            android:textSize="16sp"
+            android:textSize="24sp"
             app:layout_constraintHorizontal_bias="0.503"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
+        <com.google.android.material.textview.MaterialTextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="Explore Us"
-            android:textSize="16dp"
+            android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="@+id/textView2"
             app:layout_constraintHorizontal_bias="0.478"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -53,18 +53,19 @@
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:layout_marginStart="20dp"
-            android:layout_marginTop="124dp"
-            android:onClick="goToLogin"
-            app:backgroundTint="@color/blue_light"
+            android:layout_marginTop="48dp"
             android:layout_marginEnd="20dp"
+            android:onClick="goToLogin"
             android:text="LOG IN"
+            app:backgroundTint="@color/blue_light"
             app:layout_constraintEnd_toEndOf="@+id/shapeableImageView"
+            app:layout_constraintHorizontal_bias="0.454"
             app:layout_constraintStart_toStartOf="@+id/shapeableImageView"
             app:layout_constraintTop_toBottomOf="@+id/shapeableImageView" />
 
-        <TextView
+        <com.google.android.material.textview.MaterialTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="28dp"
